@@ -3,6 +3,7 @@ from config.root_config import lista_config
 from routes.routes import adicionar_rota
 
 
+
 def startApp():
     app = Flask(__name__)
     
@@ -12,7 +13,9 @@ def startApp():
     
     #build routes
     adicionar_rota(app)
-    return app
+    return app  
+
+    
 
 
 
